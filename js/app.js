@@ -3,12 +3,15 @@
 const message = document.querySelector("#message")
 const button1 = document.querySelector("#button1")
 const button2 = document.querySelector("#button2")
+const buttons = document.querySelector("#btn btn-secondary")
 
 // reference quests with a function
 
-const goToQuest = () => {
-    newText = (quests.text)
-    newButtonPrompt = (quests.buttons)
+// Looks like you would need a parameter here since you call it later with an argument. 
+// Also you're going to need to access the text within the individual quest object.
+
+const goToQuest= () => {
+    
 }
 
 // event listeners 
@@ -82,7 +85,7 @@ const quests = {
     eighteen: {
         text: "You defend yourself, you both get kicked out - You get injured!"
     }
-    
+
 }
 
 // DOM content

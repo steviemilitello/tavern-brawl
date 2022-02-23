@@ -3,8 +3,29 @@ body {
     background-color:darkslategray
 }
 
+#header-div {
+    position: fixed;
+    bottom: 35%;
+    width: 100%;
+}
+
 h1 {
     text-align: center;
+    font-family: 'MedievalSharp', cursive;
+    color: whitesmoke;
+    padding: 10px; 
+}
+
+#container {
+    position: fixed;
+    bottom: 40px; 
+    width: 100%;
+}
+
+.btn {
+    padding: 10px;
+    margin: 15px;
+    width: 30%;
 }
 
 #button-div {
