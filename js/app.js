@@ -3,23 +3,41 @@
 const message = document.querySelector("#message")
 const button1 = document.querySelector("#button1")
 const button2 = document.querySelector("#button2")
-const buttons = document.querySelector("#btn btn-secondary")
 
 // reference quests with a function
 
-// Looks like you would need a parameter here since you call it later with an argument. 
-// Also you're going to need to access the text within the individual quest object.
+// doire's advice
 
-const goToQuest= () => {
-    
+    // Looks like you would need a parameter here since you call it later with an argument. 
+    // Also you're going to need to access the text within the individual quest object.
+
+const goToQuest1 = () => {
+    // get text value from quests object ???
+    questText = message.innerText = "You arrive at a tavern, a person approaches you and challenges you to a tavern brawl, what do you do?"
+    // get buttons value from quests object ???
+    questButtonText1 = button1.innerText = "Allow"
+    questButtonText2 = button2.innerText = "Deny" 
 }
+
+// const goToQuest2 = () => {
+//     questText2 = message.innerText = "You accepted the fight, how do you fight?"
+//     questButton1 = button1.innerText = "Fists"
+//     questButton2 = button2.innerText = "Sword"
+// }
+
+// const goToQuest15 = () => {
+//     questText15 = message.innerText = "You have denied to fight, but the challenger attempts to convince you. Do you:"
+//     questButton1 = button1.innerText = "Give In"
+//     questButton2 = button2.innerText = "Still Refuse"
+// }
 
 // event listeners 
 
-button1.addEventListener("click", goToQuest)
-button2.addEventListener("click", goToQuest)
+button1.addEventListener("click", goToQuest1)
+button2.addEventListener("click", goToQuest1)
 
-// array to hold all the quests
+// object to hold all the quests
+// make into branching path ???
 
 const quests = {
     one: {
@@ -91,5 +109,5 @@ const quests = {
 // DOM content
 
 document.addEventListener("DOMContentLoaded", () => {  
-    goToQuest(quests.one)
+
 })

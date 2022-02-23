@@ -9,6 +9,11 @@ body {
     width: 100%;
 }
 
+#message {
+    color: whitesmoke;
+    font-size: 22px;
+}
+
 h1 {
     text-align: center;
     font-family: 'MedievalSharp', cursive;
