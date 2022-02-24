@@ -1,6 +1,10 @@
 // buttons, message, etc. in DOM
 
+const header = document.querySelector("#header")
 const message = document.querySelector("#message")
+const buttonDiv = document.querySelector("#button-div")
+const containerDiv = document.querySelector("#container")
+const buttons = document.querySelector("btn btn-secondary")
 const button1 = document.querySelector("#button1")
 const button3 = document.createElement("button")
 const button4 = document.createElement("button")
@@ -21,36 +25,13 @@ const button18 = document.createElement("button")
 const button19 = document.createElement("button")
 const button20 = document.createElement("button")
 const button21 = document.createElement("button")
-const buttons = document.querySelector("btn btn-secondary")
-const buttonDiv = document.querySelector("#button-div")
-const containerDiv = document.querySelector("#container")
 
 // quests
 
 const beginQuest = () => {
     message.innerText = ""
     button1.addEventListener("click", goToQuest1)
-}
 
-const resetGame = () => {
-    message.innerText = ""
-    buttonDiv.removeChild(button11)
-    buttonDiv.appendChild(button1)
-    button1.addEventListener("click", beginQuest)
-}
-
-const restartGame = () => {
-    message.innerText = "You have accepted the fight reluctantly, how do you fight?"
-    buttonDiv.removeChild(button18)
-    buttonDiv.removeChild(button19)
-    buttonDiv.appendChild(button5)
-    buttonDiv.appendChild(button6)
-    button5.innerText = "Fists"
-    button6.innerText = "Sword"
-    button5.className = "btn btn-secondary"
-    button6.className = "btn btn-secondary"
-    button5.addEventListener("click", goToQuest3)
-    button6.addEventListener("click", goToQuest12)
 }
 
 const goToQuest1 = () => {
@@ -97,7 +78,7 @@ const goToQuest3 = () => {
 }
 
 const goToQuest4 = () => {
-    message.innerText = "You are Tactical, you get the upper hand and dodge the first atack, do you:"
+    message.innerText = "You are tactical, you get the upper hand and dodge the first atack, do you:"
     buttonDiv.removeChild(button7)
     buttonDiv.removeChild(button8)
     buttonDiv.appendChild(button9)
@@ -112,7 +93,8 @@ const goToQuest4 = () => {
 }
 
 const goToQuest5 = () => {
-    message.innerText = "You have gotten injured - You have lost the fight!"
+    header.innerHTML = "You Lost"
+    message.innerText = "You have gotten injured:"
     buttonDiv.removeChild(button9)
     buttonDiv.removeChild(button10)
     buttonDiv.appendChild(button11)
@@ -123,7 +105,8 @@ const goToQuest5 = () => {
 }
 
 const goToQuest6 = () => {
-    message.innerText = "You stayed back and waiting for your moment to strike - You have won the fight!"
+    header.innerHTML = "You Won"
+    message.innerText = "You stayed back and waiting for your moment to strike:"
     buttonDiv.removeChild(button9)
     buttonDiv.removeChild(button10)
     buttonDiv.appendChild(button11)
@@ -148,7 +131,8 @@ const goToQuest7 = () => {
 }
 
 const goToQuest8 = () => {
-    message.innerText = "You have gotten injured - You have lost the fight!"
+    header.innerHTML = "You Lost"
+    message.innerText = "You have gotten injured:"
     buttonDiv.removeChild(button12)
     buttonDiv.removeChild(button13)
     buttonDiv.appendChild(button11)
@@ -174,7 +158,8 @@ const goToQuest9 = () => {
 }
 
 const goToQuest10 = () => {
-    message.innerText = "You attacked - You have and won the fight!"
+    header.innerHTML = "You Won"
+    message.innerText = "You attacked and defeated the challenger:"
     buttonDiv.removeChild(button14)
     buttonDiv.removeChild(button15)
     buttonDiv.appendChild(button11)
@@ -185,7 +170,8 @@ const goToQuest10 = () => {
 }
 
 const goToQuest11 = () => {
-    message.innerText = "You waited too long and got injured - You have lost the fight!"
+    header.innerHTML = "You Lost"
+    message.innerText = "You waited too long and got injured:"
     buttonDiv.removeChild(button14)
     buttonDiv.removeChild(button15)
     buttonDiv.appendChild(button11)
@@ -211,7 +197,8 @@ const goToQuest12 = () => {
 }
 
 const goToQuest13 = () => {
-    message.innerText = "You have chosen to continue the fight - You injure yourself and get kicked out of the tavern - You have lost the fight!"
+    header.innerHTML = "You Lost"
+    message.innerText = "You have chosen to continue the fight - You injure yourself and get kicked out of the tavern:"
     buttonDiv.removeChild(button16)
     buttonDiv.removeChild(button17)
     buttonDiv.appendChild(button11)
@@ -222,7 +209,8 @@ const goToQuest13 = () => {
 }
 
 const goToQuest14 = () => {
-    message.innerText = "You have chosen to stop the fight - You don't get injured!",
+    header.innerHTML = "You Won?"
+    message.innerText = "You have chosen to stop the fightand don't get injured:",
     buttonDiv.removeChild(button16)
     buttonDiv.removeChild(button17)
     buttonDiv.appendChild(button11)
@@ -262,7 +250,8 @@ const goToQuest16 = () => {
 }
 
 const goToQuest17 = () => {
-    message.innerText = "You ignored the challenger and you leave the tavern!"
+    header.innerHTML = "You didn't Lose or Win"
+    message.innerText = "You ignored the challenger and you leave the tavern:"
     buttonDiv.removeChild(button20)
     buttonDiv.removeChild(button21)
     buttonDiv.appendChild(button11)
@@ -273,18 +262,50 @@ const goToQuest17 = () => {
 }
 
 const goToQuest18 = () => {
-    message.innerText = "You defend yourself, you both get kicked out - You get injured!"
+    header.innerHTML = "You Lost"
+    message.innerText = "You defend yourself, you both get kicked out and you get injured:"
     buttonDiv.removeChild(button20)
     buttonDiv.removeChild(button21)
     buttonDiv.appendChild(button11)
     button11.innerText = "Try Again!"
     button11.className = "btn btn-secondary"
     button11.addEventListener("click", resetGame)
+
 }
 
-// event listeners
+const resetGame = () => {
+    header.innerHTML = "<br>Tavern</br>Brawl"
+    message.innerText = ""
+    buttonDiv.removeChild(button11)
+    buttonDiv.appendChild(button1)
+    button1.addEventListener("click", beginQuest)
 
-// button1.addEventListener("click", goToQuest1)
+}
+
+const restartGame = () => {
+    message.innerText = "You have accepted the fight reluctantly, how do you fight?"
+    buttonDiv.removeChild(button18)
+    buttonDiv.removeChild(button19)
+    buttonDiv.appendChild(button5)
+    buttonDiv.appendChild(button6)
+    button5.innerText = "Fists"
+    button6.innerText = "Sword"
+    button5.className = "btn btn-secondary"
+    button6.className = "btn btn-secondary"
+    button5.addEventListener("click", goToQuest3)
+    button6.addEventListener("click", goToQuest12)
+
+}
+
+// DOM content
+
+document.addEventListener("DOMContentLoaded", () => {  
+    beginQuest()
+})
+
+// -- old code (to save) -----------------------------------------------------------------------------------------------------
+
+// quests in an object, want to access values in objects to be referenced
 
 // const quests = {
 //     one: {
@@ -352,9 +373,3 @@ const goToQuest18 = () => {
 //     }
 
 // }
-
-// DOM content
-
-document.addEventListener("DOMContentLoaded", () => {  
-    beginQuest()
-})

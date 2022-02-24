@@ -1,6 +1,8 @@
 
 body {
-    background-color:darkslategray
+    background-image: url("/images/tavern.jpeg");
+    background-size: 100%;
+    /* background-color:darkslategray */
 }
 
 #header-div {
