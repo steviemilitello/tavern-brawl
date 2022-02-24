@@ -10,6 +10,14 @@
 
 ![a picture of a person holding a sword](images/gameproject2.png)
 
+### HOW TO PLAY
+
+- Click Begin to start the game. 
+- Click the buttons and make your choices!
+- Can you win the fight and walk away unscathed?
+
+*See QUESTS.md for a list of branching paths
+
 ### USER STORY 
 
 - As a user they want to able to click a box and make a choice 
@@ -24,8 +32,6 @@
 - each button leads to a new choice 
 - some choices represent failure or sucess 
 - win conditions - a way (or multiple ways) to suceed at the game
-
-*Possibility to add randomness or sense of change similar to a dice roll? 
 
 ### TECHNOLOGIES 
 

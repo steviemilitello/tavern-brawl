@@ -1,8 +1,9 @@
 
 body {
+    background-color:darkslategray;
     background-image: url("/images/tavern.jpeg");
-    background-size: 100%;
-    /* background-color:darkslategray */
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #header-div {
@@ -11,14 +12,20 @@ body {
     width: 100%;
 }
 
+/* #messagediv {
+    margin: auto;
+    width: 50%;
+} */
+
 #message {
-    color: whitesmoke;
     font-size: 22px;
+    color: whitesmoke;
 }
 
 h1 {
     text-align: center;
     font-family: 'MedievalSharp', cursive;
+    font-size: 75px;
     color: whitesmoke;
     padding: 10px; 
 }

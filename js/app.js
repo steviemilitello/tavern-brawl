@@ -29,7 +29,7 @@ const button21 = document.createElement("button")
 // quests
 
 const beginQuest = () => {
-    message.innerText = ""
+    message.innerText = "Choose your Path!"
     button1.addEventListener("click", goToQuest1)
 
 }
@@ -78,7 +78,7 @@ const goToQuest3 = () => {
 }
 
 const goToQuest4 = () => {
-    message.innerText = "You are tactical, you get the upper hand and dodge the first atack, do you:"
+    message.innerText = "You are tactical, you get the upper hand and dodge the first attack, do you:"
     buttonDiv.removeChild(button7)
     buttonDiv.removeChild(button8)
     buttonDiv.appendChild(button9)
@@ -106,7 +106,7 @@ const goToQuest5 = () => {
 
 const goToQuest6 = () => {
     header.innerHTML = "You Won"
-    message.innerText = "You stayed back and waiting for your moment to strike:"
+    message.innerText = "You stayed back and waited for your moment to strike:"
     buttonDiv.removeChild(button9)
     buttonDiv.removeChild(button10)
     buttonDiv.appendChild(button11)
@@ -275,18 +275,18 @@ const goToQuest18 = () => {
 
 const resetGame = () => {
     header.innerHTML = "<br>Tavern</br>Brawl"
-    message.innerText = ""
+    message.innerText = "Choose your Path!"
     buttonDiv.removeChild(button11)
     buttonDiv.appendChild(button1)
-    button1.addEventListener("click", beginQuest)
+    button1.addEventListener("click", goToQuest1)
 
 }
 
 const restartGame = () => {
     message.innerText = "You have accepted the fight reluctantly, how do you fight?"
     buttonDiv.removeChild(button18)
-    buttonDiv.removeChild(button19)
     buttonDiv.appendChild(button5)
+    buttonDiv.removeChild(button19)
     buttonDiv.appendChild(button6)
     button5.innerText = "Fists"
     button6.innerText = "Sword"
