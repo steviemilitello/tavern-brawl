@@ -4,6 +4,7 @@ const header = document.querySelector("#header")
 const message = document.querySelector("#message")
 const buttonDiv = document.querySelector("#button-div")
 const containerDiv = document.querySelector("#container")
+const messageDiv = document.querySelector("#messagediv")
 const buttons = document.querySelector("btn btn-secondary")
 const button1 = document.querySelector("#button1")
 const button3 = document.createElement("button")
@@ -25,13 +26,23 @@ const button18 = document.createElement("button")
 const button19 = document.createElement("button")
 const button20 = document.createElement("button")
 const button21 = document.createElement("button")
+const questBackground0 = url("/images/tavern.jpeg")
+const questBackground1 = url("/images/tavernbarrel.jpeg")
+
+// change background on click
+
+const changeBackground = (questBackground) => {
+    document.body.style.backgroundImage = questBackground
+    document.body.style.backgroundRepeat = "no-repeat"
+    document.body.style.backgroundSize = "cover"
+
+}
 
 // quests
 
 const beginQuest = () => {
     message.innerText = "Choose your Path!"
-    button1.addEventListener("click", goToQuest1)
-
+    button1.addEventListener("click", goToQuest1, changeBackground(questBackground1))
 }
 
 const goToQuest1 = () => {
@@ -302,7 +313,6 @@ const restartGame = () => {
 
 document.addEventListener("DOMContentLoaded", () => {  
     beginQuest()
-
 })
 
 // -- old code (to save) -----------------------------------------------------------------------------------------------------

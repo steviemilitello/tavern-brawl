@@ -1,9 +1,9 @@
 
 body {
     background-color:darkslategray;
-    background-image: url("/images/tavern.jpeg");
+    /* background-image: url("/images/tavern.jpeg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 #header-div {
@@ -11,11 +11,6 @@ body {
     bottom: 35%;
     width: 100%;
 }
-
-/* #messagediv {
-    margin: auto;
-    width: 50%;
-} */
 
 #message {
     font-size: 22px;
