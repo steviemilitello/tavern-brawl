@@ -128,6 +128,7 @@ const goToQuest7 = () => {
     button13.className = "btn btn-secondary"
     button12.addEventListener("click", goToQuest8)
     button13.addEventListener("click", goToQuest9)
+
 }
 
 const goToQuest8 = () => {
@@ -301,6 +302,7 @@ const restartGame = () => {
 
 document.addEventListener("DOMContentLoaded", () => {  
     beginQuest()
+
 })
 
 // -- old code (to save) -----------------------------------------------------------------------------------------------------
