@@ -45,6 +45,7 @@ const goToQuest1 = () => {
     button4.className = "btn btn-secondary"
     button3.addEventListener("click", goToQuest2)
     button4.addEventListener("click", goToQuest15)
+
 }
 
 const goToQuest2 = () => {
