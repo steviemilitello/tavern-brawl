@@ -4,11 +4,11 @@
 
 **Example Image 1**
 
-![a picture of a sword on a table](images/gameproject1.png)
+![a picture of a sword on a table](./images/gameproject1.png)
 
 **Example Image 2**
 
-![a picture of a person holding a sword](images/gameproject2.png)
+![a picture of a person holding a sword](./images/gameproject2.png)
 
 ### HOW TO PLAY
 
