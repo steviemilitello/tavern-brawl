@@ -1,5 +1,3 @@
-# PROJECT 1 #
-
 <div align="center">
    <h1>:crossed_swords: TAVERN BRAWL :crossed_swords:</h1>
    <h3><a href="https://steviemilitello.github.io/tavern-brawl/">https://steviemilitello.github.io/tavern-brawl/</a></h3>                           
