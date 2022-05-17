@@ -10,7 +10,7 @@
       <img src="https://img.shields.io/badge/-Linkedin-blue?style=flat&``logo=Linkedin&logoColor=white">
    </a> 
    <a href="mailto:steviemilitello@gmail.com" target="_blank">
-      <img src="https://img.shields.io/badge/-email-c14438?style=flat&logo=Gmail&``logoColor=white">
+      <img src="https://img.shields.io/badge/-Email-c14438?style=flat&logo=Gmail&``logoColor=white">
    </a>
 </div>
 
