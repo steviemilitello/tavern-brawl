@@ -1,11 +1,7 @@
 
 body {
     background-color:darkslategray;
-<<<<<<< HEAD
-    background-image: url("/Images/tavern.jpeg");
-=======
     background-image: url("https://i.imgur.com/Ktl4QE2.jpg");
->>>>>>> 9dc688b98993ad05eb47d141a9f549f8cdc904be
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -15,11 +11,6 @@ body {
     bottom: 35%;
     width: 100%;
 }
-
-/* #messagediv {
-    margin: auto;
-    width: 50%;
-} */
 
 #message {
     font-size: 22px;
