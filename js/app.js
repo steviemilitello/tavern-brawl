@@ -4,6 +4,7 @@ const header = document.querySelector("#header")
 const message = document.querySelector("#message")
 const buttonDiv = document.querySelector("#button-div")
 const containerDiv = document.querySelector("#container")
+const messageDiv = document.querySelector("#messagediv")
 const buttons = document.querySelector("btn btn-secondary")
 const button1 = document.querySelector("#button1")
 const button3 = document.createElement("button")
@@ -25,6 +26,17 @@ const button18 = document.createElement("button")
 const button19 = document.createElement("button")
 const button20 = document.createElement("button")
 const button21 = document.createElement("button")
+const questBackground0 = url("/images/tavern.jpeg")
+const questBackground1 = url("/images/tavernbarrel.jpeg")
+
+// change background on click
+
+const changeBackground = (questBackground) => {
+    document.body.style.backgroundImage = questBackground
+    document.body.style.backgroundRepeat = "no-repeat"
+    document.body.style.backgroundSize = "cover"
+
+}
 
 // --- TAVERN BRAWL QUEST CHOICES ----------------------------------------------------------------------------------------------------------------------------
 
@@ -33,9 +45,13 @@ const button21 = document.createElement("button")
 const beginQuest = () => {
     // a message is displayed prompting the user to begin
     message.innerText = "Choose your Path!"
+<<<<<<< HEAD
+    button1.addEventListener("click", goToQuest1, changeBackground(questBackground1))
+=======
     // when button1 is clicked, the game goes to option 1 of the quest
     button1.addEventListener("click", goToQuest1)
 
+>>>>>>> 9dc688b98993ad05eb47d141a9f549f8cdc904be
 }
 
 /// --- QUEST OPTION 1 - the first choice of the "quest", prompting the user to accept or deny the tavern brawl fight -----------------------------------------
@@ -514,7 +530,6 @@ const restartGame = () => {
 document.addEventListener("DOMContentLoaded", () => {  
     // when the page loads, the beginQuest function is initiated 
     beginQuest()
-
 })
 
 // --- OLD CODE (TO SAVE) -----------------------------------------------------------------------------------------------------
