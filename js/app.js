@@ -4,7 +4,6 @@ const header = document.querySelector("#header")
 const message = document.querySelector("#message")
 const buttonDiv = document.querySelector("#button-div")
 const containerDiv = document.querySelector("#container")
-const messageDiv = document.querySelector("#messagediv")
 const buttons = document.querySelector("btn btn-secondary")
 const button1 = document.querySelector("#button1")
 const button3 = document.createElement("button")
@@ -26,15 +25,6 @@ const button18 = document.createElement("button")
 const button19 = document.createElement("button")
 const button20 = document.createElement("button")
 const button21 = document.createElement("button")
-
-// change background on click
-
-const changeBackground = (questBackground) => {
-    document.body.style.backgroundImage = questBackground
-    document.body.style.backgroundRepeat = "no-repeat"
-    document.body.style.backgroundSize = "cover"
-
-}
 
 // --- TAVERN BRAWL QUEST CHOICES ----------------------------------------------------------------------------------------------------------------------------
 
@@ -159,7 +149,7 @@ const goToQuest5 = () => {
     message.innerText = "You have gotten injured:"
     // removes button9 from goToQuest4
     buttonDiv.removeChild(button9)
-    // removes button10 from goToQuest4
+    // removes buttton10 from goToQuest4
     buttonDiv.removeChild(button10)
     // adds button11
     buttonDiv.appendChild(button11)
@@ -525,6 +515,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // when the page loads, the beginQuest function is initiated 
     beginQuest()
 
+})
+
 // --- OLD CODE (TO SAVE) -----------------------------------------------------------------------------------------------------
 
 // quests in an object, want to access values in objects to be referenced
@@ -540,10 +532,10 @@ document.addEventListener("DOMContentLoaded", () => {
 //     },
 //     three: {
 //         text: "The fight begins, how do you approach the fight?",
-//         buttons: [["Tactical", goToQuest(quests.four)],["Spontaneous", goToQuest(quests.seven)]]
+//         buttons: [["Tactical", goToQuest(quests.four)],["Spontaenous", goToQuest(quests.seven)]]
 //     },
 //     four: { 
-//         text: "You are Tactical, you get the upper hand and dodge the first attack, do you:",
+//         text: "You are Tactical, you get the upper hand and dodge the first atack, do you:",
 //         buttons: [["Attack Again", goToQuest(quests.five)],["Stay Back", goToQuest(quests.six)]]
 //     },
 //     five: {
