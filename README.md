@@ -37,7 +37,7 @@
 
 | Description | Screenshot |
 |------------ | ------------|
-| <h3 align="center">Example Page 1</h3> | <img src="https://i.imgur.com/2RoXJET.png" width="700"/>
+| <h3 align="center">Example Page 1</h3> | <img src="https://i.imgur.com/2RoXJET.png" width="700"/> |
 | <h3 align="center">Example Page 2</h3> | <img src="https://i.imgur.com/ab0BSdw.png" width="700"> |
 </details>
 
@@ -46,7 +46,7 @@
 
 | Description | Screenshot |
 |------------ | ------------|
-| <h3 align="center">Home Page</h3> | <img src="https://i.imgur.com/faNN2o0.png" width="700"/>
+| <h3 align="center">Home Page</h3> | <img src="https://i.imgur.com/faNN2o0.png" width="700"/> |
 | <h3 align="center">Game Page</h3> | <img src="https://i.imgur.com/gpmnxje.png" width="700"> |
 | <h3 align="center">End Page</h3> | <img src="https://i.imgur.com/RUUPZ4O.png" width="700"> |
 </details>
