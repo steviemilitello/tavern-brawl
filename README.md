@@ -2,13 +2,13 @@
    <h1>:crossed_swords: TAVERN BRAWL :crossed_swords:</h1>
    <h3><a href="https://steviemilitello.github.io/tavern-brawl/">https://steviemilitello.github.io/tavern-brawl/</a></h3>                           
    <a href="http://steviecodes.com" target="_blank">
-      <img src="https://img.shields.io/badge/-Portfolio_-darkgreen?style=flat&logo=medium"/>
+      <img src="https://img.shields.io/badge/-Portfolio_-darkgreen?style=for-the-badge&logo=medium"/>
    </a>
    <a href="https://www.linkedin.com/in/stevie-militello/" target="_blank">
-      <img src="https://img.shields.io/badge/-Linkedin-blue?style=flat&``logo=Linkedin&logoColor=white">
+      <img src="https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&``logo=Linkedin&logoColor=white">
    </a> 
    <a href="mailto:steviemilitello@gmail.com" target="_blank">
-      <img src="https://img.shields.io/badge/-Email-c14438?style=flat&logo=Gmail&``logoColor=white">
+      <img src="https://img.shields.io/badge/-Email-c14438?style=for-the-badge&logo=Gmail&``logoColor=white">
    </a>
 </div>
 
@@ -60,9 +60,9 @@
 
 <h1>:computer: Technologies Used</h1>
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript) 
-![HTML5](https://img.shields.io/badge/-HTML5-333?style=flat&logo=html5)
-![CSS3](https://img.shields.io/badge/-CSS-333?style=flat&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 
 
