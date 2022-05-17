@@ -19,7 +19,7 @@
 
 <h1> :atom_symbol: Getting Started </h1>
 
-<h3> :calling: Instructions </h3>
+<h3>Instructions </h3>
 <details open>
 <summary>How to Play</summary>
 <ol>
