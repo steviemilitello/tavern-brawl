@@ -21,9 +21,10 @@
 <details open>
 <summary>How to Play</summary>
 <ul>
-    <li>- Click Begin to start the game.</li>
-    <li>- Click the buttons and make your choices!</li>
-    <li>- Can you win the fight and walk away unscathed?</li>
+   <p></p>
+    <li>Click Begin to start the game</li>
+    <li>Click the buttons and make your choices</li>
+    <li>At the end, the game will tell you whether you have won or lost</li>
     <li>*See QUESTS.md for a list of branching paths</li>
 </ul>
 </details>
