@@ -32,16 +32,16 @@
 <h1>:framed_picture: Screenshots</h1>
 
 <details>
-<summary> :art: Wireframes</summary>
+<summary> :art: Wireframes</summary><br />
 
 | Description | Screenshot |
 |------------ | ------------|
 | <h3 align="center">Example Page 1</h3> | <img src="https://i.imgur.com/2RoXJET.png" width="700"/> |
 | <h3 align="center">Example Page 2</h3> | <img src="https://i.imgur.com/ab0BSdw.png" width="700"> |
 </details>
-
+<p></p>
 <details open>
-<summary> :gear: Functionality</summary>
+<summary> :gear: Functionality</summary><br />
 
 | Description | Screenshot |
 |------------ | ------------|
