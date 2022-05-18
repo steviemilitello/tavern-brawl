@@ -32,7 +32,7 @@
 <h1>:framed_picture: Screenshots</h1>
 
 <details>
-<summary> :art: Wireframes</summary>
+<summary> :art: Wireframes</summary><br />
 
 | Description | Screenshot |
 |------------ | ------------|
@@ -40,8 +40,8 @@
 | <h3 align="center">Example Page 2</h3> | <img src="https://i.imgur.com/ab0BSdw.png" width="700"> |
 </details>
 
-<details>
-<summary> :art: Functionality</summary>
+<details open>
+<summary> :gear: Functionality</summary><br />
 
 | Description | Screenshot |
 |------------ | ------------|
@@ -64,6 +64,14 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+<h1>:fast_forward: Next Steps</h1>
+
+<ul>
+    <li>Add more choices to the game</li>
+    <li>Expand game beyond a single location</li>
+    <li>Add more images/visual elements to the game</li>
+ </ul>
 
 
 
