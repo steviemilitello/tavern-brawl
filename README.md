@@ -40,7 +40,7 @@
 | <h3 align="center">Example Page 2</h3> | <img src="https://i.imgur.com/ab0BSdw.png" width="700"> |
 </details>
 
-<details>
+<details open>
 <summary> :gear: Functionality</summary>
 
 | Description | Screenshot |
