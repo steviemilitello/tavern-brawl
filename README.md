@@ -20,12 +20,12 @@
 <h3>Instructions </h3>
 <details open>
 <summary>How to Play</summary>
-<ol>
+<ul>
     <li>- Click Begin to start the game.</li>
     <li>- Click the buttons and make your choices!</li>
     <li>- Can you win the fight and walk away unscathed?</li>
     <li>*See QUESTS.md for a list of branching paths</li>
-</ol>
+</ul>
 </details>
 
 <h1>:framed_picture: Screenshots</h1>
