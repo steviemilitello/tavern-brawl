@@ -53,7 +53,7 @@
 <h1>:bust_in_silhouette: User Story</h1>
 
 <ul>
-    <li>As a user they want to able to click a box and make a choice </li>
+    <li>As a user they want to able to click a button and make a choice </li>
     <li>They also want to be able to have a branching path based on that choice </li>
     <li>They want to have rewards or consequences based on the choice </li>
     <li>The user wants a way to win at the game</li>
