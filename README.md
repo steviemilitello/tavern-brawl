@@ -47,8 +47,8 @@
 
 | Description | Screenshot |
 |------------ | ------------|
-| <h3 align="center">Example Page 1</h3> | <img src="https://i.imgur.com/2RoXJET.png" width="700"/> |
-| <h3 align="center">Example Page 2</h3> | <img src="https://i.imgur.com/ab0BSdw.png" width="700"> |
+| <h3 align="center">Game Page 1</h3> | <img src="https://i.imgur.com/2RoXJET.png" width="700"/> |
+| <h3 align="center">Game Page 2</h3> | <img src="https://i.imgur.com/ab0BSdw.png" width="700"> |
 </details>
 
 <details open>
