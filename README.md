@@ -17,15 +17,26 @@
 
 <h1> :atom_symbol: Getting Started </h1>
 
-<h3>Instructions </h3>
+<h3> :calling: Install Instructions </h3>
 <details open>
-<summary>How to Play</summary>
+<summary>Installation</summary>
+<p></p>
+<ul>
+    <li>Fork and Clone this Repo</li>
+    <li>Copy the path to <code>index.html</code> and paste it in your browser to run</li>
+</ul>
+</details>
+<p></p>
+
+<h3>How to Use </h3>
+<details open>
+<summary>How to Play the Game</summary>
 <ul>
    <p></p>
     <li>Click Begin to start the game</li>
     <li>Click the buttons and make your choices</li>
     <li>At the end, the game will tell you whether you have won or lost</li>
-    <li>*See QUESTS.md for a list of branching paths</li>
+    <li>*See <code>QUESTS.md</code> for a list of branching paths</li>
 </ul>
 </details>
 
@@ -54,7 +65,7 @@
 
 <ul>
     <li>As a user they want to able to click a button and make a choice </li>
-    <li>They also want to be able to have a branching path based on that choice </li>
+    <li>They want to be able to have a branching path based on that choice </li>
     <li>They want to have rewards or consequences based on the choice </li>
     <li>The user wants a way to win at the game</li>
 </ul>
