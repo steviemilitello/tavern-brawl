@@ -78,11 +78,9 @@
 
 <h1>:fast_forward: Next Steps</h1>
 
-<ul>
-    <li>Add more choices to the game</li>
-    <li>Expand game beyond a single location</li>
-    <li>Add more images/visual elements to the game</li>
- </ul>
+   - [ ] Add More Choices to the Game</li>
+   - [ ] Expand Game to More Locations</li>
+   - [ ] Add More Visual Elements</li>
 
 
 
