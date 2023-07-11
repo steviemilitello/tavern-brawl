@@ -36,7 +36,7 @@
     <li>Click Begin to start the game</li>
     <li>Click the buttons and make your choices</li>
     <li>At the end, the game will tell you whether you have won or lost</li>
-    <li>*See <code>QUESTS.md</code> for a list of branching paths</li>
+    <li>*See <a href="QUESTS.md">QUESTS.md</a> for a list of branching paths</li>
 </ul>
 </details>
 
